@@ -62,9 +62,7 @@ sudo apt update && sudo apt upgrade -y
       - Go to VM > Manage > Clean Up Disks in VMware to reduce the VM size.
 
 ### Step 4: Setting Up Git
-```
-github.com/seneca-polytechnic
-```
+
    - 2.13. Verify Git is installed on your system:
 ```bash
 git --version
@@ -111,19 +109,20 @@ git commit -m "Initial commit"
 
 ### Step 6: Create a GitHub Account and Setup
    - 2.21. Go to GitHub [Sign Up Page](https://github.com/Seneca-polytechnic).
-   - 2.22. Enter the following details:
-      - Use your Seneca email address for the email field.
-      - Create a username (use a professional format, e.g., sf-seneca).
-      - set a secure password.
-   - 2.23. Verify your email address by clicking the confirmation link sent to your inbox.
-   - 2.24. Complete the account creation process.
-   - 2.25. Join the GitHub Education Program (optional)
+   - ~~2.22. Enter the following details:~~
+      - ~~Use your Seneca email address for the email field.~~
+      - ~~Create a username (use a professional format, e.g., sf-seneca).~~
+      - ~~set a secure password.~~
+   - ~~2.22. Access GitHub Enterprise using MySeneca credential.~~
+   - ~~2.23. Verify your email address by clicking the confirmation link sent to your inbox.~~
+   - ~~2.24. Complete the account creation process.~~
+   - ~~2.25. Join the GitHub Education Program (optional)~~
    - 2.26. Generate an SSH Key
       - Open a terminal and generate a new ssh key:
 ```bash
-ssh-keygen -t rsa -b 4096 -C "yourname@senecapolytechnic.ca"
+ssh-keygen -t rsa -b 4096 -C "yourname@myseneca.ca"
 ```
-   - replace "yourname@senecapolytechnic.ca" with the email address you use for your GitHub account.
+   - replace "yourname@myseneca.ca" with the email address you use for your GitHub account.
    - 2.27. When prompted to "Enter a file in which to save the key," press Enter to accept the default location (~/.ssh/id_rsa).
    - 2.28. You will be asked to set a passphrase. Either enter a passphrase for added security or press Enter to skip.
    - 2.29. Add the SSH Key to GitHub
