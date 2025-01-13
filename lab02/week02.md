@@ -39,7 +39,8 @@
   ```bash
   ansible --version
   ```
-
+- Additional Note:
+  - Visit [this guide](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu) for more detail on Ansible installation.
 ### Step 3: Configure and Test Ansible
 
 - 2.7. Set Up a Test Inventory File:
