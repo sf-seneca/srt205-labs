@@ -80,12 +80,12 @@
   ```yaml
   ---
   - name: Test Ansible Playbook
-  hosts: local
+    hosts: local
 
-  become: yes
-  tasks:
-     - name: Install curl
-     apt:
+    become: yes
+    tasks:
+    - name: Install curl
+      apt:
         name: curl
         state: present
   ```
