@@ -46,8 +46,8 @@
 - 2.7. Set Up a Test Inventory File:
   - Create a directory for your Ansible files:
   ```bash
-  mkdir ~/repos/str205-labs/lab02
-  cd ~/repos/str205-labs/lab02
+  mkdir ~/repos/srt205-labs/lab02
+  cd ~/repos/srt205-labs/lab02
   ```
   - Create an inventory file named `hosts`:
   ```bash
@@ -155,7 +155,7 @@
 - 3.6. Repeat Step5 in Section 2 Instruction to update any changes.
 ## 4. Deliverables:
 
-You should create a folder for each lab submission in your **str205-labs** repository, following the naming convention (e.g., `lab01`, `lab02`). Each folder should contain a markdown file for the lab report. Use the provided `report_template.md` as a base for your report submissions.
+You should create a folder for each lab submission in your **srt205-labs** repository, following the naming convention (e.g., `lab01`, `lab02`). Each folder should contain a markdown file for the lab report. Use the provided `report_template.md` as a base for your report submissions.
 
 This weeks deliverables are:
 
